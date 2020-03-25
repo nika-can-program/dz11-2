@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace dz11
 {
-    interface ISred
+    interface IAnimalEnergy
     {
-        void Calculate();
+        void eat();
+        void walk();
     }
 }

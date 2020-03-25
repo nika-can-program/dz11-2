@@ -10,14 +10,22 @@ namespace dz11
     {
         static void Main(string[] args)
         {
-            Teacher teacher = new Teacher();
-            teacher.Print();
-            Student student = new Student();
-            student.Print();
-            student.Calculate();
-            Person person = new Person();
-            person.Print();
+            Cat cat = new Cat();
+            
+            cat.eat();
+            cat.walk();
+            
 
+            Dog dog = new Dog();
+            
+            dog.eat();
+            dog.walk();
+
+
+            Girrafe giraffe = new Girrafe();
+
+            giraffe.eat();
+            giraffe.walk();
 
             Console.ReadLine();
         }
